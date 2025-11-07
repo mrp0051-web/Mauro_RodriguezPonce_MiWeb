@@ -7,9 +7,11 @@
     align-items: center;
     top: 0;
     background: rgba(0, 0, 0, 0.8);
-    z-index: auto;
+    z-index: 1000;
     padding: 5px;
-
+    box-sizing: border-box;
+    border: 0px;
+    margin: 0px;
 }
 
 
@@ -41,6 +43,7 @@ body{
     font-size: 27px;
     font-family: "Playfair Display", serif;
     font-style: normal;
+    box-sizing: border-box;
 }
 
 #folio1 h1{
@@ -156,10 +159,12 @@ font-style: normal;
     text-align: center;
     font-family: "Playfair Display", serif;
     font-style: normal;
+    box-sizing: border-box;
+    margin: 0px;
 }
 
 #PELICULAS img{
-    width: 250PX;
+    width: 190PX;
 }
 
 
@@ -185,6 +190,7 @@ font-style: normal;
     font-size: 27px;
     font-family: "Playfair Display", serif;
     font-style: normal;
+    box-sizing: border-box; 
 }
 
 #sectionformulario h1{
