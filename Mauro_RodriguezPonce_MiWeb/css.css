@@ -145,11 +145,11 @@ font-style: normal;
 /*CSS DE EL ASIDE */
 
 #PELICULAS{
-    position: fixed;         /* se mantiene fijo en pantalla */
+    position: fixed;       
     float: right;
-    top: 390px;              /* distancia desde la parte superior */
-    right: 70px;             /* distancia desde el borde derecho */
-    width: 250px;            /* ancho del recuadro */
+    top: 390px;              
+    right: 70px;             
+    width: 250px;            
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     padding: 30px;
