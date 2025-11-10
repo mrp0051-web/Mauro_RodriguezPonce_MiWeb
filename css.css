@@ -1,0 +1,198 @@
+
+/*CSS DE EL NAV */
+
+#navPrincipal {     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+/*CSS DE EL EL BODY Y EL FOLIO */
+
+body{
+    margin: 0;
+    background-image: url(Imagenes/Saber.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    backdrop-filter: blur(2px);
+    
+}
+
+#folio1{
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 70px 90px;
+    box-shadow: 0 4px 10px rgba(0, 0, 100, 10);
+    color: rgb(219, 219, 219);
+    margin-left: 320px;
+    margin-right: 500px;
+    margin-top: 250px;
+    font-size: 27px;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+#folio1 h1{
+    font-size: 45px;
+}
+
+#FATE {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*CSS DE LA IMAGEN LOGO DEL NAV */
+
+#ImagenPrincipal{
+    width: 250px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS GLOBAL DEL MAIN */
+
+main{
+    display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS DE LAS PALABRAS DEL NAV */
+
+nav a{
+text-decoration: none;
+font-size: 40px;
+color: white;
+font-family: "Playfair Display", serif;
+font-style: normal;
+}
+
+#Enlace1{
+
+}
+
+#Enlace1:hover{
+    color: rgb(130, 62, 156);
+
+}
+
+#Enlace2{
+    margin-right: 250px;
+}
+
+#Enlace2:hover{
+    color: rgb(130, 62, 156);
+}
+
+
+#Enlace3{
+
+}
+
+#Enlace3:hover{
+    color: rgb(130, 62, 156);
+}
+
+
+
+
+
+
+
+
+
+/*CSS DE EL ASIDE */
+
+#PELICULAS{
+    position: fixed;         /* se mantiene fijo en pantalla */
+    float: right;
+    top: 390px;              /* distancia desde la parte superior */
+    right: 70px;             /* distancia desde el borde derecho */
+    width: 250px;            /* ancho del recuadro */
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 100, 0.6);
+    z-index: auto;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#PELICULAS img{
+    width: 190PX;
+}
+
+
+
+
+
+
+
+
+
+
+/*CSS DE EL SECTION DE EL FORMULARIO */
+
+#sectionformulario{
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 70px 90px;
+    box-shadow: 0 4px 10px rgba(0, 0, 100, 10);
+    color: rgb(219, 219, 219);
+    margin-left: 320px;
+    margin-right: 500px;
+    margin-top: 50px;
+    font-size: 27px;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    box-sizing: border-box; 
+}
+
+#sectionformulario h1{
+    font-size: 45px;
+}
