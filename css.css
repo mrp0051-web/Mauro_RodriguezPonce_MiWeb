@@ -1,7 +1,7 @@
 
 /*CSS DE EL NAV */
 
-#navPrincipal {     
+.navPrincipal {     
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,7 +188,9 @@ transition: color 0.3s;
     font-family: "Playfair Display", serif;
     font-style: normal;
     box-sizing: border-box;
-    margin-top: 900px;
+    margin-top: 130px;
+    margin-left: 300px;
+    margin-right: 570px;
 }
 
 #sectionformulario h1{
@@ -201,18 +203,27 @@ transition: color 0.3s;
 
 
 #PiePagina{
-    background-image: url(Imagenes/Pie\ de\ pagina\ 2.png);
-    background-repeat:auto;
-    background-size: auto;
+    background-image: url(Imagenes/PieDePagina5.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     margin-top: 90px;
     padding: 50px;
     text-align: center;
     color: white;
-
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    box-sizing: border-box;
+    background-position: auto;
 }
 
-#SectionPrincipal{
+[class="SectionPrincipal"]{
     display: grid;
     grid-template-columns: 70% 10% 20%;
+}
+
+#Videos{
+    margin-left: 147px;
+    border-color: rgb(120, 71, 134);
+    border-width:3px;
 }
