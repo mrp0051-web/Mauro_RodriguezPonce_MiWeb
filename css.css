@@ -37,10 +37,10 @@ body{
     padding: 70px 90px;
     box-shadow: 0 4px 10px rgba(0, 0, 100, 10);
     color: rgb(219, 219, 219);
-    margin-left: 320px;
-    margin-right: 500px;
-    margin-top: 250px;
-    font-size: 27px;
+    margin-top: 400px;
+    margin-left: 300px;
+    font-size: 26.4px;
+
     font-family: "Playfair Display", serif;
     font-style: normal;
     box-sizing: border-box;
@@ -85,6 +85,7 @@ body{
 
 main{
     display: grid;
+    
 }
 
 
@@ -106,6 +107,7 @@ font-size: 40px;
 color: white;
 font-family: "Playfair Display", serif;
 font-style: normal;
+transition: color 0.3s;
 }
 
 #Enlace1{
@@ -145,14 +147,13 @@ font-style: normal;
 /*CSS DE EL ASIDE */
 
 #PELICULAS{
-    position: fixed;         /* se mantiene fijo en pantalla */
-    float: right;
-    top: 390px;              /* distancia desde la parte superior */
-    right: 70px;             /* distancia desde el borde derecho */
-    width: 250px;            /* ancho del recuadro */
+    position: fixed;         
+    /*Float: right*/
+    margin-top: 400px;
+    margin-right: 150px;
+    padding: 50px; 
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
-    padding: 30px;
     color: white;
     box-shadow: 0 4px 15px rgba(0, 0, 100, 0.6);
     z-index: auto;
@@ -160,7 +161,6 @@ font-style: normal;
     font-family: "Playfair Display", serif;
     font-style: normal;
     box-sizing: border-box;
-    margin: 0px;
 }
 
 #PELICULAS img{
@@ -184,15 +184,35 @@ font-style: normal;
     padding: 70px 90px;
     box-shadow: 0 4px 10px rgba(0, 0, 100, 10);
     color: rgb(219, 219, 219);
-    margin-left: 320px;
-    margin-right: 500px;
-    margin-top: 50px;
     font-size: 27px;
     font-family: "Playfair Display", serif;
     font-style: normal;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    margin-top: 900px;
 }
 
 #sectionformulario h1{
     font-size: 45px;
+}
+
+#formulario{
+    text-align: center;
+}
+
+
+#PiePagina{
+    background-image: url(Imagenes/Pie\ de\ pagina\ 2.png);
+    background-repeat:auto;
+    background-size: auto;
+    background-attachment: fixed;
+    margin-top: 90px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+#SectionPrincipal{
+    display: grid;
+    grid-template-columns: 70% 10% 20%;
 }
