@@ -227,3 +227,7 @@ transition: color 0.3s;
     border-color: rgb(120, 71, 134);
     border-width:3px;
 }
+
+#Lista1{
+    text-align: center;
+}

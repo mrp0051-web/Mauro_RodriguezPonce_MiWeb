@@ -1,19 +1,180 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css.css">
-</head>
-<body>
-    <nav id="navPricipal">
-
-    </nav>
-</body>
-</html>
-
-
-<img id="ImagenPrincipal"src="Imagenes/Fate-removebg-preview.png">
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina Principal</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navPrincipal">
+                <img id="ImagenPrincipal" src="Imagenes/papa.png">
+                <a id="Enlace3" href="Index.html">Inicio</a>
                 <a id="Enlace1" href="Historia.html">Historia</a>
-                <a id="Enlace2" href="PersonajesPrincipales.html">Personajes</a>
+                <a id="Enlace2" href="PersonajesPrincipales.html"><u>Personajes</u></a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="SectionPrincipal">
+            <section>
+                <article id="folio1">
+                    <h1 id="FATE">FATE HEAVEN'S FEEL</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h2 id="Inicio"><em>Inicio</em></h2>
+                    <hr>
+                    <br>
+                    <p>Fate/stay night: Heaven's Feel es una trilogía de películas de anime japonés producida por Ufotable, dirigida por Tomonori Sudō, escrita por Akira Hiyama, y con música de Yuki Kajiura. La trilogía adapta Heaven's Feel, la tercera y última ruta de la novela visual Fate/stay night. Se centra en Shirou Emiya y Sakura Matou, quienes se ven afectados por un conflicto entre magos conocido como la Guerra del Santo Grial.</p>
+                    <p>La primera película de la trilogía, titulada Presage Flower se estrenó en Japón el 14 de octubre de 2017, y se estrenó en los Estados Unidos entre noviembre y diciembre de 2017. Su doblaje en inglés se estrenó el 5 de junio de 2018 y el 7 de junio de 2018 en Estados Unidos.</p>
+                    <p>La segunda película, titulada Lost Butterfly, se estrenó en Japón el 12 de enero de 2019. Aniplex of America estrenó la película en los Estados Unidos en marzo de 2019.</p>
+                    <p>La tercera y última película de la trilogía, titulada Spring Song, se estrenó en Japón el 15 de agosto de 2020, y se estrenó en los Estados Unidos el 18 de noviembre de 2020.</p>
+                    <p>Es la cuarta adaptación de anime de las obras de Type-Moon de Ufotable, después de la serie de películas The Garden of Sinners, la serie de televisión Fate/Zero y la serie de televisión Fate/stay night: Unlimited Blade Works y también la cuarta adaptación al anime de la novela visual Fate/stay night, después de las adaptaciones de Studio Deen Fate/stay night (2006), una serie de televisión, y Fate/stay night: Unlimited Blade Works, una película; y la adaptación de Ufotable Fate/stay night: Unlimited Blade Works. La trilogía también es la primera adaptación al anime de la ruta Heaven's Feel.</p>
+                </article>
+            </section>
+            <section>
+
+            </section>
+            <section>
+            <aside id="PELICULAS">
+                <h3>PELICULAS</h3>
+                <hr>
+                <br>
+                <br>
+                <p><b>Fate/stay night: Heaven's Feel I. Presage Flower</b></p>
+                <a href="https://youtu.be/4sMRFERFlh8?si=rUcTyPZQZB72Y1Wi" target="_blank">
+                <img src="Imagenes/FATEHEAVENSFEEL 1.jpg">
+                </a>
+                <sub><strong>Fecha de estreno: 14/10/2017</strong></sub>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p><b>Fate/stay night: Heaven's Feel II. Lost Butterfly</b></p>
+                <a href="https://youtu.be/NhJQDAIwQVc?si=A7NvatE9TRhjTi7Q" target="_blank">
+                <img src="Imagenes/FATEHEAVENSFEEL 2.jpg">
+                </a>
+                <sub><strong>Fecha de estreno: 12/01/2019</strong></sub>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p><b>Fate/stay night: Heaven's Feel III. Spring Song</b></p>
+                <a href="https://youtu.be/ij3_tNsUMos?si=DJcBpw-9vJEoxeqP" target="_blank">
+                <img src="Imagenes/FATEHEAVENSFEEL 3.jpg">
+                </a>
+                <sub><strong>Fecha de estreno: 15/08/2020</strong></sub>
+                <br>
+                <br>
+                <br>
+                <br>
+
+            </aside>
+        </section>
+        </section>
+
+    <!-- Aqui irá el formulario -->
+
+            <section id="sectionformulario">
+                <h2><em>Formulario</em></h2>
+                <hr>
+                <p>Si desea participar en nuestro sorteo para ganar un premio, rellene el siguiente formulario:</p>
+                <form id="formulario">
+                    <label>
+                        <fieldset>
+                            <legend>
+                                <h2>Datos</h2>
+                            </legend>
+                            Nombre:
+                            <input type="text" required>
+                        </fieldset>
+                    </label>
+                    <label>
+                        <fieldset>
+                            Fecha de Nacimiento:
+                            <input type="date" required>
+                        </fieldset>
+                    </label>
+                    <label>
+                        <fieldset>
+                            Dirección:
+                            <input type="text" required>
+                        </fieldset>
+                    </label>
+                    <label>
+                        <fieldset>
+                            Introduzca su numero de telefono:
+                            <input type="text" pattern="number" max="9" required>
+                        </fieldset>
+                    </label>
+                    <label>
+                        <fieldset>
+                            Selecciona tu clase favorita:
+                            <select>
+                                <option 1>Saber</option>
+                                <option 2>Archer</option>
+                                <option 3>Assasin</option>
+                                <option 4>Raider</option>
+                                <option 5>Caster</option>
+                                <option 6>Berserker</option>
+                                <option 7>Ruler</option>
+                                <option 8>Beast</option>
+                                <option 9>Ninguna en especial</option>
+                            </select>
+                        </fieldset>
+                    </label>
+                    <label>
+                        <fieldset>
+                            Cuanto te gusta Fate del 1 al 10?:
+                            <input type="number" min="1" max="10" required>
+                        </fieldset>
+                    </label>
+                        <fieldset>
+                            Del 1 al 10 cuanto te gusta la pagina:
+                            1 <input type="range" min="1" max="10" required> 10
+                        </fieldset>
+                    <label>
+                        <fieldset>
+                            Recomendarias esta pagina?:
+                            <p>
+                                Si
+                                <input type="radio" required>
+                            </p>
+                            <p>
+                                No
+                                <input type="radio" required>
+                            </p>
+                        </fieldset>
+                    </label>
+                    <label>
+                        <fieldset> 
+                            <p>Comentario:</p>
+                            <textarea></textarea>
+                        </fieldset>
+                    </label>
+                    <label>
+                        <fieldset>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Borrar</button>
+                        </fieldset>
+                    </label>
+                </form>
+            </section>   <!--PIE DE PAGINA-->
+        </main>
+
+        <section>
+            <footer id="PiePagina">
+                PÁGINA DE MAURO RODRIGUEZ PONCE
+            </footer>
+        </section>
+    </body>
+    </html>
