@@ -203,10 +203,10 @@ transition: color 0.3s;
 
 
 #PiePagina{
-    background-image: url(Imagenes/PieDePagina5.jpg);
+    background-image: url(Imagenes/Ilustración\ De\ Guerreros.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: bottom;
     margin-top: 90px;
     padding: 50px;
     text-align: center;
@@ -214,7 +214,8 @@ transition: color 0.3s;
     font-family: "Playfair Display", serif;
     font-style: normal;
     box-sizing: border-box;
-    background-position: auto;
+    background-position: center;
+    height: 130px;
 }
 
 [class="SectionPrincipal"]{
@@ -228,6 +229,20 @@ transition: color 0.3s;
     border-width:3px;
 }
 
-#Lista1{
+td{
+    border: 1px solid rgb(150, 149, 149);
+    padding: 5px;
     text-align: center;
+}
+
+th{
+    border: 1px solid rgb(150, 149, 149);
+    padding: 5px;
+    text-align: center;
+}
+
+#Padoruu{
+margin-left:353px;
+width: 155px;
+float: center;
 }
