@@ -110,9 +110,6 @@ font-style: normal;
 transition: color 0.3s;
 }
 
-#Enlace1{
-
-}
 
 #Enlace1:hover{
     color: rgb(130, 62, 156);
@@ -128,19 +125,34 @@ transition: color 0.3s;
 }
 
 
-#Enlace3{
-
-}
-
 #Enlace3:hover{
     color: rgb(130, 62, 156);
 }
 
 
+#Enlace2::before{
+    content: "◂";
+}
 
+#Enlace2::after{
+    content: "▸";
+}
 
+#Enlace1::before{
+    content: "◂";
+}
 
+#Enlace1::after{
+    content: "▸";
+}
 
+#Enlace3::before{
+    content: "◂";
+}
+
+#Enlace3::after{
+    content: "▸";
+}
 
 
 
@@ -201,6 +213,7 @@ transition: color 0.3s;
     text-align: center;
 }
 
+/*PIE DE PAGINA*/
 
 #PiePagina{
     background-image: url(Imagenes/Ilustración\ De\ Guerreros.jpg);
@@ -218,10 +231,14 @@ transition: color 0.3s;
     height: 130px;
 }
 
+/*COLUMNAS*/
+
 [class="SectionPrincipal"]{
     display: grid;
     grid-template-columns: 70% 10% 20%;
 }
+
+/*VIDEOS*/
 
 #Videos{
     margin-left: 147px;
@@ -229,17 +246,31 @@ transition: color 0.3s;
     border-width:3px;
 }
 
+/*TABLA*/
+
 td{
     border: 1px solid rgb(150, 149, 149);
     padding: 5px;
     text-align: center;
+    border-color: rgba(255, 0, 0, 0.5);
 }
 
 th{
     border: 1px solid rgb(150, 149, 149);
     padding: 5px;
     text-align: center;
+    border-color: rgba(255, 0, 0, 0.5);
 }
+
+tr:nth-child(odd){
+    background-color: rgba(54, 30, 85, 0.5);
+}
+
+tr:nth-child(even){
+    background-color: rgba(89, 66, 116, 0.5);
+}
+
+/*GIF DE PADORU*/
 
 #Padoruu{
 margin-left:353px;
